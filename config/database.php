@@ -6,9 +6,9 @@ if (!defined('BASE_URL')) {
 
 $DB_HOST = 'db01.dbhost.dev';
 $DB_PORT = '5051';
-$DB_NAME = 'db_455c5bckg';
-$DB_USER = 'user_455c5bckg';
-$DB_PASS = 'p455c5bckg';
+$DB_NAME = 'db_4558tkz5j';
+$DB_USER = 'user_4558tkz5j';
+$DB_PASS = 'p4558tkz5j';
 
 try {
     $pdo = new PDO("mysql:host=$DB_HOST;port=$DB_PORT;dbname=$DB_NAME;charset=utf8mb4", $DB_USER, $DB_PASS, [
