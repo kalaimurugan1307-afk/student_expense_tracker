@@ -104,7 +104,7 @@ body{background:#0a1413;min-height:100vh;display:flex;color:#e6f0ef}
 
     <form method="POST" autocomplete="off">
       <label class="lab">Full Name</label>
-      <input class="inp" type="text" name="name" required placeholder="e.g. Jackson Durai" value="<?= htmlspecialchars($_POST['name']??'')?>">
+      <input class="inp" type="text" name="name" required placeholder="e.g. your name" value="<?= htmlspecialchars($_POST['name']??'')?>">
       
       <label class="lab">Email Address</label>
       <input class="inp" type="email" name="email" required placeholder="you@college.edu" value="<?= htmlspecialchars($_POST['email']??'')?>">
